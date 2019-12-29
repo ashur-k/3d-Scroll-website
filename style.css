@@ -7,7 +7,7 @@ body{
     margin: 0;
     font-family: var(--primary-font-family);
 }
-.content-box{
+.header .content-box{
     background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(home.jpg); 
     background-position: center;
     background-size: cover;
@@ -64,4 +64,10 @@ body{
 }
 .banner-text a:hover{
     background: transparent;
+}
+/*---------------Service Section---------------*/
+.content-box{
+    background: #f4f3ff;
+    height: 100vh;
+    width: 100%;
 }
